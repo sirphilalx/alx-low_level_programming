@@ -2,7 +2,7 @@
 /**
  *main-program entry point.
  *Return:0 success, non zero error.
- **/
+ */
 int main(void)
 {
 	int num;
@@ -11,13 +11,13 @@ int main(void)
 	{
 		putchar(num);
 		if (num == '9')
-		}
+		{
 			break;
 		}
 		else
 		{
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
