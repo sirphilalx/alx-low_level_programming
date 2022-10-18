@@ -1,20 +1,20 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - this is the main entry point where I create a putchar string
- *
- * Return Always 0 (Successful)
+ *main- Entry point
+ *Description: prints the word _putchar, followed by a new line
+ *Return: Always return to (0)
  */
-
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-return (0);
+	char word[8] = "_putchar";
+	int a;
+
+	for (a = 0; a < 8; a++)
+		putchar(word[a]);
+	putchar('\n');
+
+	return (0);
 }
