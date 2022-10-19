@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * add - the adder function name
