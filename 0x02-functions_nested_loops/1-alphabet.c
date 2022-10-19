@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
- * main - main entry point
- * written by Philemon
- * returns 0 if successful
+ * print_alphabet - prints all letters of the alphabet in lower case
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	for(int letter = 'a'; letter >= 'z'; letter++)
-	{
-		printf("%c");
-	}
-	return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
