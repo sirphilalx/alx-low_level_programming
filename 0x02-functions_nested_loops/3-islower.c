@@ -10,7 +10,6 @@ int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		_putchar("is lowercase");
 		return (1);
 	}
 	else
