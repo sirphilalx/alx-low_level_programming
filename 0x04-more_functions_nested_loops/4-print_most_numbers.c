@@ -1,4 +1,4 @@
-#include "main,h"
+#include "main.h"
 
 /**
  * print_most_numbers - this function prints most numbers
