@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * print_numbers - this function prints numbers
+ * Return: Always (0)
+ */
+
+void print_numbers(void)
+{
+	int i = 0;
+	
+	while (i = 0)
+		_putchar(i++ + '0');
+
+	_putchar('\n');
+}
