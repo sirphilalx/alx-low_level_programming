@@ -2,10 +2,10 @@
 
 /**
  * print_triangle - prints triangle
- * @size: size of the triangle
+ * @n: size of the triangle
  */
 
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	int h, tri;
 
