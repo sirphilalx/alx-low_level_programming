@@ -4,6 +4,7 @@
  * _strncat - the function that concatenates with the n
  * @dest: the first integer
  * @src: the source string
+ * @n: the description of param n
  * Return: returns 1 on success
  */
 
