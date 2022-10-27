@@ -6,7 +6,6 @@
  * @src: the second parameter
  * Return: returns apointer to the resulting string, dest
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int i;
