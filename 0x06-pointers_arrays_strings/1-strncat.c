@@ -5,7 +5,7 @@
  * @dest: the first integer
  * @src: the source string
  * @n: the description of param n
- * Return: returns 1 on success
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -14,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 	int j;
 
 	i = 0;
-	while (dest != '\0')
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
