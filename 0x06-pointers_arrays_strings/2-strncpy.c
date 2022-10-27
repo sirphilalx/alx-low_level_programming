@@ -5,6 +5,7 @@
  * @dest: copies to
  * @src: copies from
  * @n: number of elements to copy
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
