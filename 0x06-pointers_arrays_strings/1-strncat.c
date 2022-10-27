@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - the function that concatenates with the n 
+ * _strncat - the function that concatenates with the n
  * @dest: the first integer
  * @src: the source string
  * Return: returns 1 on success
