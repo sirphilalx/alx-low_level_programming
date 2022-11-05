@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
 		printf("%s\n", "Error");
 		return (1);
 	}
-	num1 = atoi(argc[1]);
-	num2 = atoi(argc[2]);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
 	printf("%d\n", result);
