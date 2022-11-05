@@ -9,7 +9,7 @@
  * Return: returns 0 always
  */
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
