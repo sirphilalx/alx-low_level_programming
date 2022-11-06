@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -23,13 +22,13 @@ int main(int argc, char *argv[])
 
 	if (num < 0)
 	{
-		printf("%s\n", '0');
+		printf("0\n");
 		return (0);
 	}
 
 	for (j = 0; j < 5 && num >= 0; j++)
 	{
-		while (num >= coins[])
+		while (num >= coins[j])
 		{
 			num -= coins[j];
 			result++;
