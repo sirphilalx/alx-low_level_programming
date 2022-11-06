@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * main - main entry point
@@ -11,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int result, num, i, j, k;
+	int result = 0, num, i, j, k;
 
 
 	for (i = 1; i < argc; i++)
