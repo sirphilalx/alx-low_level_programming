@@ -3,7 +3,7 @@
 /**
 * malloc_checked - uses malloc to allocate space in the heap memory
 * @b: the integer to be checked
-* Return: returns a value
+* Return: void
 */
 
 void *malloc_checked(unsigned int b)
