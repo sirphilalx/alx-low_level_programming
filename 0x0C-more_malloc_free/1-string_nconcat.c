@@ -8,7 +8,7 @@
 * Return: 0 if succesful and 1 if not
 */
 
-char string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
 	unsigned int size1 = 0, size2 = 0, i;
@@ -36,6 +36,11 @@ char string_nconcat(char *s1, char *s2, unsigned int n)
 	if (p == NULL)
 		return (0);
 
+	for (i = 0; i < size1; i++)
+	{
+		p[i] = s1[i];
+	}
+
 	for (; i < (size1 + n); i++)
 	{
 		p[i] = s2[i - size1];
@@ -43,5 +48,4 @@ char string_nconcat(char *s1, char *s2, unsigned int n)
 	p[i] = '\0';
 
 return (p);
-}
 }
