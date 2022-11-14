@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
 * main - the entry point
@@ -8,5 +7,5 @@
 
 int main(void)
 {
-	printf("%s", __FILE);
+	printf("%s", __FILE__);
 } 
