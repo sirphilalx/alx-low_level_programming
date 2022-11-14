@@ -8,5 +8,5 @@
 
 int main(void)
 {
-	_putchar("File %s", __FILE);
+	printf("%s", __FILE);
 } 
