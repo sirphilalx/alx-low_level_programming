@@ -8,14 +8,17 @@
 
 int main(void)
 {
-	char ch;
+	char i;
+	char k;
 
-	for (ch = 'A'; ch <= 'z'; ch++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (ch < 91 && ch > 96)
-		{
-			putchar(ch);
-		}
+		putchar(i);
 	}
+	for (k = 'A'; k <= 'Z'; k++)
+	{
+		putchar(k);
+	}
+		putchar('\n');
 	return (0);
 }
