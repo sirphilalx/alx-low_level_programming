@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  * Description -  This function check for sizes of variables
- * Return: always 0 (Success)
+ * Return: zero if no error, Non-zero value  if errors.
  */
 
 int main(void)
