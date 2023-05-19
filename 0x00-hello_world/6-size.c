@@ -2,8 +2,8 @@
 
 /**
  * main: Entry point
- *
- * Return - Always 0 (Success)
+ * Description -  This function check for sizes of variables
+ * Return: always 0 (Success)
  */
 
 int main(void)
