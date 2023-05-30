@@ -3,6 +3,7 @@
  * _strcpy - the function name that copies
  * @dest: more like a destination
  * @src: more like a source
+ * Return: returns the destination value;
  */
 
 char *_strcpy(char *dest, char *src)
