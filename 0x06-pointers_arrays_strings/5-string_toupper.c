@@ -2,6 +2,7 @@
 /**
  * string_toupper - the function that gets called
  * @str: the string that gets converted
+ * Return: returns the resultant string
  */
 
 char *string_toupper(char *str)
