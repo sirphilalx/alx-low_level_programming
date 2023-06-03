@@ -2,6 +2,7 @@
 /**
  * rot13 - the encoder function
  * @str: the string that gets encoded
+ * Return: returns the encoded str
  */
 char *rot13(char *str)
 {
