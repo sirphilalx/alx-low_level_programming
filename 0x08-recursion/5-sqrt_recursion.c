@@ -17,7 +17,7 @@ int _checker(int a, int b)
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number to be checked
- * Returns an integer
+ * Return: returns an integer
  */
 int _sqrt_recursion(int n)
 {
