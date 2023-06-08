@@ -2,7 +2,8 @@
 /**
  * _strlen_recursion - the function name
  * @s: the string that gets played on
- */
+ * Return: returns the resulting k
+ *//
 int _strlen_recursion(char *s)
 {
 	int k;
