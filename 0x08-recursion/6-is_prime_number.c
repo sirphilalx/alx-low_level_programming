@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _checker - the checker for this function
+ * @a: the interger
+ * @b: the integer
+ * Return: an integer
+ */
 int _checker(int a, int b)
 {
 	if (b < 2 || b % a == 0)
