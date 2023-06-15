@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int j;
-	int result = 1;
+	int result;
 
 	if (argc <= 1)
 	{
