@@ -14,3 +14,7 @@ In learning how to program, this is one of the courses I had to deal with in alx
 - 0x09-static_libraries
 - 0x0A-argc_argv
 - 0x0C. C - More malloc, free
+- 0x0D-preprocessor
+- 0x0E-structures_typedef
+- 0x10. C - Variadic functions
+- 0x0F. C - Function pointers
