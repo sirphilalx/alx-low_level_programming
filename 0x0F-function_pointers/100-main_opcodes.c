@@ -4,6 +4,7 @@
  * main - main entry poing of the program
  * @argc: argument count
  * @argv: argument vector
+ * Return: returns 0
  */
 int main(int argc, char *argv[])
 {
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 	for (i = 0; i < no_bytes; i++)
 	{
 		printf("%02x", operations[i] & 0xFF);
-		if (i != no_bytes -1)
+		if (i != no_bytes - 1)
 			printf(" ");
 	}
 
