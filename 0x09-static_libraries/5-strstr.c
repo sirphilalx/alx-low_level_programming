@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strstr - Entry point
- * @haystack: input
- * @needle: input
+ * _strstr - the entry point
+ * @haystack: input variable
+ * @needle: input variable
  * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
