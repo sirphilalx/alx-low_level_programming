@@ -6,7 +6,7 @@
  * add_node - the function that adds a node at the beginning of a linked list
  * @head: teh head of the linked list
  * @str: the elements to be duplicated from a previous node
- * 
+ *
  * Return: returns the address of the new node
  */
 
