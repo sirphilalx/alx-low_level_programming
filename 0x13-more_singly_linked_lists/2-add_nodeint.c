@@ -5,7 +5,7 @@
  * add_nodeint - adds node at the head position of the linked list
  * @head: the head of the linked list
  * @n: the number of elements to be added to the linked list
- * 
+ *
  * Return: returns the address of the new element or NULL if failed
  */
 

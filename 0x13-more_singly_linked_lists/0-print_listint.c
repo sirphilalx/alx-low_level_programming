@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * print_listint - the linked list function pointer
@@ -8,14 +7,9 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t counter;
+	size_t counter = 0;
 
-	counter = 0;
-
-	if (!h)
-		return (0);
-
-	while (h)
+	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 
