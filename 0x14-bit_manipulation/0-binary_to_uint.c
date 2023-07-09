@@ -4,7 +4,7 @@
 /**
  * binary_to_uint - function
  * @b: the binary
- * 
+ *
  * Return: return the converted number
  */
 
