@@ -1,34 +1,26 @@
 #include "main.h"
+
 /**
- * _strncat - the function that concats a certain number
- * @dest: the destination
- * @src: the source
- * @n: the number of strings that will get copied
- * Return: returns the destination string after concat
+ * *_strncat - function pointer to concatenate two strings
+ * @dest: destination string
+ * @src: src string to append to end of destination string
+ * @n: interger to show the max characters to add from src
+ * Return: returns the appended destination pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	int j;
+	int dest_len = 0;
+	int src_len = 0;
 
-	i = 0;
-	while (dest[i] != '\0')
-		i++;
-	j = 0;
-	while (src[j] != '\0')
+	while (dest[dest_len] != '\0')
 	{
-		if (j != n)
-		{
-			dest[i] = src[j];
-			i++;
-			j++;
-		}
-		else
-		{
-			break;
-		}
+		dest_len++;
 	}
-	dest[i] = '\0';
+	for (src_len = 0; src[src_len] != '\0' && src_len < n; src_len++)
+	{
+		dest[dest_len + src_len] = src[src_len];
+	}
+	dest[dest_len + src_len] = '\0';
 	return (dest);
 }

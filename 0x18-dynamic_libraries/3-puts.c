@@ -1,14 +1,20 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _puts - the function name that gets called
- * @str: the string that gets printed
+ * _puts - a function that returns the length of a string.
+ * @str: An input character
+ * Return: Nothing
  */
 
 void _puts(char *str)
 {
-	int i;
+	int len = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
-		_putchar(str[i]);
+	while (str[len] != '\0')
+	{
+		_putchar(str[len]);
+		len++;
+	}
 	_putchar('\n');
 }

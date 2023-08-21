@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
- * _memset - the function that gets called
- * @s: the pointer
- * @b: the constant that fills the memory (value)
- * @n: the number (size)
- * Return: returns the new values
+ * _memset - a function that fills memory with a constant byte.
+ * @s: An input character
+ * @b: An input character
+ * @n: An input integer
+ * Return: A pointer to the memory s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;

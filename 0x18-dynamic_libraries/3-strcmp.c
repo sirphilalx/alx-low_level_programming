@@ -1,21 +1,24 @@
 #include "main.h"
+
 /**
- * _strcmp - the function that gets called
- * @s1: the first string
- * @s2: the second string
- * Return: returns the difference between the ascii values of
- * the two strings if they are not the same or else, returns 0
+ * _strcmp - function to compare two strings
+ * @s1: string 1
+ * @s2:string 2
+ * Return: return difference in ascii after coparing
  */
+
 int _strcmp(char *s1, char *s2)
 {
-	int k;
-
-	k = 0;
-	while (s1[k] != '\0' && s2[k] != '\0')
+	while (*s1)
 	{
-		if (s1[k] != s2[k])
-			return (s1[k] - s2[k]);
-		k++;
+		if (*s1 != *s2)
+		{
+			break;
+		}
+
+		s1++;
+		s2++;
 	}
-	return (0);
+
+	return (*(const unsigned char *)s1 - *(const unsigned char *)s2);
 }

@@ -1,30 +1,30 @@
 #include "main.h"
+
 /**
- * _strspn - the function that checks the span
- * @s: the string
- * @accept: the second string
- * Returns: the number of bytes
+ * _strspn - function that gets the length of a prefix substring.
+ * @s: An input character
+ * @accept: An input character
+ * Return: the number of bytes in the initial segment of s,
+ * which consist only of bytes from accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
-	unsigned int bytes = 0;
+	int i, j;
+	int c = 0;
 
-	while (*s)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (i = 0; accept[i]; i++)
+		if (s[i] != 32)
 		{
-			if (*s == accept[i])
+			for (j = 0; accept[j] != '\0'; j++)
 			{
-				bytes++;
-				break;
-			}
-			else if (accept[i + 1] == '\0') 
-			{
-				return (bytes);
+				if (s[i] == accept[j])
+					c++;
 			}
 		}
-		s++;
+		else
+			return (c);
 	}
-	return (bytes);
+	return (c);
 }
